@@ -36,8 +36,9 @@ def main():
     print("".join(new_chars))
 
     # Another way:
-    #[print(encoding_dict.get(char, char), end="") for char in text]
-    #print()
+    # [print(encoding_dict.get(char, char), end="") for char in text]
+    # print()
+
 
 # --------------------------------------------------
 if __name__ == '__main__':
